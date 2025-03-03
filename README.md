@@ -9,11 +9,17 @@ As an MSc Data Science & Analytics student, completing this project has given me
 The entire data warehousing process was completed in SQL to deepen my understanding and develop my experience of the language.
 
 Completing this project has highlighted the strong need for effective communication skills with all stakeholders of the data for different reasons.
+
 Source Experts:
+
 Properly communicating with an expert of the source data will allow fo easier correction of incorrect and NULL values in the dataset and providing guidance on handling the Data Cleansing process.
+
 Data Analysts & Scientists:
+
 The data warehouse should be organised in a way that provides easy understanding of the datasets created. This is through using friendly names for the tables and columns as well as providing a Data catalog which explains the purpose of each table, the meaning of each column and the data types used for the columns.
+
 Decision-makers:
+
 The purpose of the Data Warehouse to begin with is store information so that it can later be used to gain insights and understanding of different business functions. This is vital for aligning goals, allowing the data engineer to make better design decisions.
 
 All of the files that need to be ran in order for Warehouse to be completed has been numbered '1' to '8'. Only the files with whole numbers need to be ran. e.g., '5.2' Should not be used and is only there to easily see a section of '5'.
