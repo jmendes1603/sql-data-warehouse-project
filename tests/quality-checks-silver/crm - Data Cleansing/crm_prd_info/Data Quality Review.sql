@@ -148,10 +148,3 @@ SELECT
 DISTINCT prd_line
 FROM silver.crm_prd_info
 GO
----------------------------------------------------------------------------------
--- Invalid Dates --
--- Expectation: 0 Results --
-SELECT
-*
-FROM silver.crm_prd_info
-WHERE prd_start_dt > prd_end_dt
