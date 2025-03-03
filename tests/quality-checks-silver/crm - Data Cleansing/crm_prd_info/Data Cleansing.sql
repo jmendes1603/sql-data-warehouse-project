@@ -33,11 +33,12 @@ prd_end_dt)
 		WHEN 'T' THEN 'Touring'
 		ELSE 'n/a'
 	END AS prd_line,
-	CASE WHEN prd_end_dt  IS NULL THEN CAST('2008-12-28' AS DATE)
-		ELSE prd_end_dt
-	END AS prd_start_dt,
-	CASE WHEN prd_start_dt = '2003-07-01' THEN DATEADD(YEAR, 10, prd_start_dt)
-		ELSE prd_start_dt
-	END AS prd_end_dt
+
+	CASE WHEN prd_start_dt = '2003-07-01' THEN '2013-07-01'
+			ELSE prd_start_dt
+			END AS prd_start_dt,
+		DATEADD(DAY, -1, LEAD(prd_start_dt) OVER (PARTITION BY prd_key ORDER BY prd_start_dt)) 
+		AS prd_end_dt
+
 	FROM bronze.crm_prd_info
 GO
