@@ -20,7 +20,9 @@ prd_end_dt)
 
 	SELECT 
 	prd_id,
-	REPLACE(SUBSTRING (prd_key, 1, 5), '-','_') AS cat_id,
+	CASE WHEN REPLACE(SUBSTRING (prd_key, 1, 5), '-','_') = 'CO_PE' THEN 'CO_PD'
+		ELSE REPLACE(SUBSTRING (prd_key, 1, 5), '-','_')
+		END AS cat_id,
 	SUBSTRING (prd_key, 7, LEN(prd_key)) AS prd_key,
 	prd_nm,
 	prd_cost,
