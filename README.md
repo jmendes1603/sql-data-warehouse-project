@@ -6,4 +6,6 @@ In this project a series of fictional datasets, mimicing a motoring and cycling 
 
 As an MSc Data Science & Analytics student, completing this project has given me a better understanding of the entire data process.
 
+The entire data warehousing process was completed in SQL to deepen my understanding of the Language and 
+
 Notion link: https://unleashed-chicken-2a7.notion.site/Data-Engineering-Project-Plan-1a56a36ce02780eb9a65df3a4c6b0342
