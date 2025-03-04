@@ -8,6 +8,8 @@ As an MSc Data Science & Analytics student, completing this project has given me
 
 The entire data warehousing process was completed in SQL to deepen my understanding and develop my experience of the language.
 
+Design Choice: The Medallion Architecture was the approach taken in this project due to its versatility, scalability, and simplicity.
+
 Completing this project has highlighted the strong need for effective communication skills with all stakeholders of the data for different reasons.
 
 Source Experts:
